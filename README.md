@@ -2,5 +2,5 @@
 - Alzheimer's Disease Detection Via MRI Images and CNN.
 
 ## Datasets
-(ADNI)[https://adni.loni.usc.edu/] \
-(OASIS-3)[https://www.oasis-brains.org/]
+[The Alzheimer’s Disease Neuroimaging Initiative-ADNI](https://adni.loni.usc.edu/) \
+[Open Access Series of Imaging Studies (OASIS)-3](https://www.oasis-brains.org/)
