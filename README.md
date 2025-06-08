@@ -6,6 +6,7 @@
 
 - [Requirements](#requirements)
 - [Datasets](#datasets)
+- [Notebooks](#Notebooks)
 
 ## Requirements
 
@@ -16,3 +17,6 @@ pip install -r requirements.txt
 ```
 ## Datasets
 [Data](https://github.com/Asma-Nasr/Alzheimer-s-Disease-Detection-MRI-images-CNN/tree/main/Data)
+
+## Notebooks
+[Notebooks](https://github.com/Asma-Nasr/Alzheimer-s-Disease-Detection-MRI-images-CNN/tree/main/Notebooks)
