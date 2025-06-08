@@ -15,6 +15,4 @@ You can install the required libraries using pip:
 pip install -r requirements.txt
 ```
 ## Datasets
-
-[The Alzheimer’s Disease Neuroimaging Initiative-ADNI](https://adni.loni.usc.edu/) \
-[Open Access Series of Imaging Studies (OASIS)-3](https://www.oasis-brains.org/)
+[Data](https://github.com/Asma-Nasr/Alzheimer-s-Disease-Detection-MRI-images-CNN/tree/main/Data)
