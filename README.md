@@ -23,4 +23,4 @@ pip install -r requirements.txt
 [Notebooks](https://github.com/Asma-Nasr/Alzheimer-s-Disease-Detection-MRI-images-CNN/tree/main/Notebooks)
 
 ## Source-Code
-[Code](https://github.com/Asma-Nasr/Alzheimer-s-Disease-Detection-MRI-images-CNN/tree/main/src)
+[Source Code](https://github.com/Asma-Nasr/Alzheimer-s-Disease-Detection-MRI-images-CNN/tree/main/src)
