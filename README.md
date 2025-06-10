@@ -8,6 +8,7 @@
 - [Datasets](#datasets)
 - [Notebooks](#Notebooks)
 - [Source Code](#Source-Code)
+- [Saved Models](#Saved-Models)
 - [Reports](#Reports)
 
 ## Requirements
@@ -25,6 +26,9 @@ pip install -r requirements.txt
 
 ## Source-Code
 [Source Code](https://github.com/Asma-Nasr/Alzheimer-s-Disease-Detection-MRI-images-CNN/tree/main/src)
+
+## Saved-Models
+[Saved Models](https://github.com/Asma-Nasr/Alzheimer-s-Disease-Detection-MRI-images-CNN/tree/main/Models)
 
 ## Reports
 [Reports](https://github.com/Asma-Nasr/Alzheimer-s-Disease-Detection-MRI-images-CNN/tree/main/Reports)
