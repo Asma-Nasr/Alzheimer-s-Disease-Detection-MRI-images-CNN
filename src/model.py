@@ -48,3 +48,15 @@ class VGG19Model(BaseModel):
 
         model = Model(inputs=vgg.input, outputs=prediction)
         return model
+
+class ResNet50Model(BaseModel):
+    def create_model(self):
+        resnet = ResNet50(input_shape=self.input_shape, weights='imagenet', include_top=False)
+        for layer in resnet.layers:
+            layer.trainable = False
+
+        x = Flatten()(resnet.output)
+        prediction = Dense(self.num_classes, activation='softmax')(x)
+
+        model = Model(inputs=resnet.input, outputs=prediction)
+        return model
