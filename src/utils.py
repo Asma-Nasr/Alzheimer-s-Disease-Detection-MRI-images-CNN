@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 def display_image(image_path, grayscale=False):
     """Display image with pixel-perfect tight layout
-    
+
     Args:
         image_path (str): Path to the image file
         grayscale (bool): If True, displays image in grayscale. Default is False.
