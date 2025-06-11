@@ -22,3 +22,16 @@ class BaseModel:
 
     def summary(self):
         return self.model.summary()
+
+
+class VGG16Model(BaseModel):
+    def create_model(self):
+        vgg = VGG16(input_shape=self.input_shape, weights='imagenet', include_top=False)
+        for layer in vgg.layers:
+            layer.trainable = False
+
+        x = Flatten()(vgg.output)
+        prediction = Dense(self.num_classes, activation='softmax')(x)
+
+        model = Model(inputs=vgg.input, outputs=prediction)
+        return model
