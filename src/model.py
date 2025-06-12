@@ -39,6 +39,9 @@ class BaseModel:
     def evaluate(self, test_generator):
         return self.model.evaluate(test_generator)
 
+    def save(self, filepath):
+        self.model.save(filepath)    
+        
 
 class VGG16Model(BaseModel):
     def create_model(self):
