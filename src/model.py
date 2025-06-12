@@ -33,6 +33,9 @@ class BaseModel:
         )
         return history
 
+    def predict(self, x):
+        return self.model.predict(x)
+
 
 class VGG16Model(BaseModel):
     def create_model(self):
