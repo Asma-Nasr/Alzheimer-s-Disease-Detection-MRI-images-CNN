@@ -31,6 +31,7 @@ class BaseModel:
             steps_per_epoch=steps_per_epoch,
             validation_steps=validation_steps
         )
+        return history
 
 
 class VGG16Model(BaseModel):
