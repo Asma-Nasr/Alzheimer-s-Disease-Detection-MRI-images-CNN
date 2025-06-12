@@ -36,6 +36,9 @@ class BaseModel:
     def predict(self, x):
         return self.model.predict(x)
 
+    def evaluate(self, test_generator):
+        return self.model.evaluate(test_generator)
+
 
 class VGG16Model(BaseModel):
     def create_model(self):
