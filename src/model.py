@@ -22,6 +22,15 @@ class BaseModel:
 
     def summary(self):
         return self.model.summary()
+        
+    def fit(self, train_generator, validation_data=None, epochs=10, steps_per_epoch=None, validation_steps=None):
+        history = self.model.fit(
+            train_generator,
+            validation_data=validation_data,
+            epochs=epochs,
+            steps_per_epoch=steps_per_epoch,
+            validation_steps=validation_steps
+        )
 
 
 class VGG16Model(BaseModel):
