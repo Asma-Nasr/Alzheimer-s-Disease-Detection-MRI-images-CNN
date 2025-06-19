@@ -9,6 +9,7 @@
 - [Source Code](#Source-Code)
 - [Saved Models](#Saved-Models)
 - [Reports](#Reports)
+- [Usage](#Usage)
 
 ## Requirements
 
@@ -31,3 +32,9 @@ pip install -r requirements.txt
 
 ## Reports
 [Reports](https://github.com/Asma-Nasr/Alzheimer-s-Disease-Detection-MRI-images-CNN/tree/main/Reports)
+
+## Usage
+- to use this repo
+``` bash
+git clone https://github.com/Asma-Nasr/Alzheimer-s-Disease-Detection-MRI-images-CNN.git
+```
