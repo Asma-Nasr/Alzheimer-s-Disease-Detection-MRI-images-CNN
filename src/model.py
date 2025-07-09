@@ -22,7 +22,7 @@ class BaseModel:
 
     def summary(self):
         return self.model.summary()
-        
+    
     def fit(self, train_generator, validation_data=None, epochs=10, steps_per_epoch=None, validation_steps=None):
         history = self.model.fit(
             train_generator,
@@ -32,16 +32,14 @@ class BaseModel:
             validation_steps=validation_steps
         )
         return history
-
     def predict(self, x):
         return self.model.predict(x)
 
-    def evaluate(self, test_generator):
-        return self.model.evaluate(test_generator)
+    def evaluate(self, x, y):
+        return self.model.evaluate(x,y)
 
     def save(self, filepath):
-        self.model.save(filepath)    
-        
+        self.model.save(filepath)
 
 class VGG16Model(BaseModel):
     def create_model(self):
