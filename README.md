@@ -2,7 +2,7 @@
 - Alzheimer's Disease Detection Via MRI Images and CNN. 
   
 ## Table of Contents
-
+ 
 - [Requirements](#requirements)
 - [Datasets](#datasets)
 - [Notebooks](#Notebooks)
