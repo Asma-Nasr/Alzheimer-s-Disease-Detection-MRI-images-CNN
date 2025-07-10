@@ -7,4 +7,5 @@ and evaluation of the Alzheimer's diagnosis project using MRI images and Convolu
 - [Image Cropping](https://github.com/Asma-Nasr/Alzheimer-s-Disease-Detection-MRI-images-CNN/blob/main/Notebooks/Image_cropping.ipynb)
 - [Model Initializing](https://github.com/Asma-Nasr/Alzheimer-s-Disease-Detection-MRI-images-CNN/blob/main/Notebooks/Initializing_models.ipynb)
 - [VGG16 Model Training](https://github.com/Asma-Nasr/Alzheimer-s-Disease-Detection-MRI-images-CNN/blob/main/Notebooks/training_vgg16.ipynb)
+- [VGG19 Model Training](https://github.com/Asma-Nasr/Alzheimer-s-Disease-Detection-MRI-images-CNN/blob/main/Notebooks/training_vgg19.ipynb)
 - [Model Evaluation]()
