@@ -41,6 +41,42 @@ class BaseModel:
     def save(self, filepath):
         self.model.save(filepath)
 
+
+class CNN(BaseModel):
+    def create_model(self):
+        model = keras.models.Sequential([
+            Conv2D(16, (3, 3), activation='relu', input_shape=self.input_shape),
+            MaxPooling2D(),
+            Conv2D(32, (2, 2), activation='relu'),
+            MaxPooling2D(),
+            SeparableConv2D(64, 3, activation='relu', padding='same'),
+            SeparableConv2D(64, 3, activation='relu', padding='same'),
+            BatchNormalization(),
+            MaxPooling2D(),
+            SeparableConv2D(128, 3, activation='relu', padding='same'),
+            SeparableConv2D(128, 3, activation='relu', padding='same'),
+            BatchNormalization(),
+            MaxPooling2D(),
+            Dropout(0.2),
+            SeparableConv2D(256, 3, activation='relu', padding='same'),
+            SeparableConv2D(256, 3, activation='relu', padding='same'),
+            BatchNormalization(),
+            MaxPooling2D(),
+            Dropout(0.2),
+            Flatten(),
+            Dense(512, activation='relu'),
+            BatchNormalization(),
+            Dropout(0.7),
+            Dense(128, activation='relu'),
+            BatchNormalization(),
+            Dropout(0.5),
+            Dense(64, activation='relu'),
+            BatchNormalization(),
+            Dropout(0.3),
+            Dense(self.num_classes, activation='softmax')
+        ])
+        return model
+
 class VGG16Model(BaseModel):
     def create_model(self):
         vgg = VGG16(input_shape=self.input_shape, weights='imagenet', include_top=False)
