@@ -9,4 +9,5 @@ and evaluation of the Alzheimer's diagnosis project using MRI images and Convolu
 - [VGG16 Model Training](https://github.com/Asma-Nasr/Alzheimer-s-Disease-Detection-MRI-images-CNN/blob/main/Notebooks/training_vgg16.ipynb)
 - [VGG19 Model Training](https://github.com/Asma-Nasr/Alzheimer-s-Disease-Detection-MRI-images-CNN/blob/main/Notebooks/training_vgg19.ipynb)
 - [ResNet50 Model Training](https://github.com/Asma-Nasr/Alzheimer-s-Disease-Detection-MRI-images-CNN/blob/main/Notebooks/training_ResNet50.ipynb)
+- [Custom CNN training](https://github.com/Asma-Nasr/Alzheimer-s-Disease-Detection-MRI-images-CNN/blob/main/Notebooks/training_Custom_cnn.ipynb)
 - [Model Evaluation]()
