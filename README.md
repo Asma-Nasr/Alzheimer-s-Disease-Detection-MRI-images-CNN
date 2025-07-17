@@ -1,6 +1,6 @@
 ## Alzheimer's Disease Detection via Magnetic Resonance Imaging (MRI) & Convolutional Neural Networks (CNN)
 - Alzheimer's Disease Detection Via MRI Images and CNN. 
-    
+     
 ## Table of Contents 
  
 - [Requirements](#requirements)
